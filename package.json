@@ -1,0 +1,25 @@
+{
+  "name": "@winner-fed/tsconfig",
+  "version": "0.0.1",
+  "description": "base tsconfig for projects.",
+  "main": "tsconfig.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tsconfig",
+    "typescript"
+  ],
+  "author": "whaleFE",
+  "peerDependencies": {
+    "@types/node": "*"
+  },
+  "peerDependenciesMeta": {
+    "@types/node": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
